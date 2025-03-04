@@ -14,18 +14,18 @@
     width: 90%
 }
 .container{
-    border: 1px solid;
+    border: 1px solid plum;
     margin: 0px;
     background: pink;
 }
 .container2{
     background: pink;
-    border: 1px solid;
+    border: 1px solid plum;
     padding:1px;
     margin: 0px;
 }
 .h1{
-    font:purple;
+    font: optional;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,5 +55,27 @@ color: #666;
     justify-content: center;
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
+.google{
+    width: 20px;
+}
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .password-toggle-icon i {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  .password-toggle-icon i:hover {
+    color: #000;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
 
